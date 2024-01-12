@@ -6,7 +6,7 @@ use git::{
 };
 use gpui::{Model, ModelContext, Subscription, Task};
 use language::{Bias, Buffer, BufferSnapshot, Edit};
-use project::{Item, Project};
+use project::{Project, ProjectItem};
 use smallvec::SmallVec;
 use sum_tree::SumTree;
 use url::Url;

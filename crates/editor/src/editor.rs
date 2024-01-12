@@ -94,7 +94,7 @@ pub use multi_buffer::{
 use ordered_float::OrderedFloat;
 use parking_lot::{Mutex, RwLock};
 use project::project_settings::{GitGutterSetting, ProjectSettings};
-use project::{FormatTrigger, Item, Location, Project, ProjectPath, ProjectTransaction};
+use project::{FormatTrigger, ProjectItem, Location, Project, ProjectPath, ProjectTransaction};
 use rand::prelude::*;
 use rpc::proto::*;
 use scroll::{Autoscroll, OngoingScroll, ScrollAnchor, ScrollManager, ScrollbarAutoHide};
